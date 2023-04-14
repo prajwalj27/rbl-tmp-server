@@ -23,7 +23,7 @@ filelock==3.10.2
 fire==0.5.0
 Flask==2.2.3
 flatbuffers==23.3.3
-fonttools==4.39.3
+fonttools==4.38.0
 futures==2.2.0
 gast==0.4.0
 gdown==4.7.1
