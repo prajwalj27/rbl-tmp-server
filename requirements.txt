@@ -9,7 +9,6 @@ chardet==3.0.4
 charset-normalizer==2.0.9
 click==8.0.3
 colorama==0.4.4
-contourpy==1.0.7
 cycler==0.11.0
 decorator==4.4.2
 deepface==0.0.79
