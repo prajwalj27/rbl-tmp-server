@@ -9,6 +9,7 @@ from datetime import date
 import uuid
 import base64
 import uvicorn
+from moviepy.editor import *
 
 import cv2
 from deepface import DeepFace

@@ -1,6 +1,7 @@
 deepface==0.0.79
 fastapi==0.95.1
 fer==22.5.0
+moviepy==1.0.3
 numpy==1.21.6
 opencv_contrib_python==4.7.0.72
 opencv_python==4.7.0.72
