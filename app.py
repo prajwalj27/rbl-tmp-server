@@ -8,6 +8,7 @@ import os.path
 from datetime import date
 import uuid
 import base64
+import uvicorn
 
 import cv2
 from deepface import DeepFace
@@ -186,3 +187,5 @@ async def getInformation(info: Request):
 
 # Run the server
 # uvicorn app:app --host 0.0.0.0 --reload
+if __name__ == "__main__":
+    uvicorn.run("app:app", host="0.0.0.0", port=8000, log_level="info")
